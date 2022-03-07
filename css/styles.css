@@ -44,17 +44,7 @@ h5 {
     width: 20px;
 }
 
-/* .my-container {
-    height: 80vh;
-    background-image: url(../images/UNIFORMES/CAMISETA.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: 100%;
-} */
-
-
 /* Google Maps */
-
 .map-container {
     overflow: hidden;
     padding-bottom: 56.25%;
@@ -68,4 +58,37 @@ h5 {
     height: 100%;
     width: 100%;
     position: absolute;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.gallery {
+  
+    padding: 60px 40px;
+    min-height: 100vh;    
+    
+}
+
+.gallery img {
+    background-color: #fff;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.biografia {
+     text-align: justify;
+    line-height: 2rem;
+    text-decoration: none;
+        
+}
+
+.instagram {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
 }
