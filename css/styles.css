@@ -13,6 +13,7 @@ footer {
     font-size: small;
     font-style: italic;
     text-align: center;
+    padding: 15px;
 }
 
 .redessociais {
@@ -20,8 +21,7 @@ footer {
     text-decoration: none;
 }
 
-h1,
-h5 {
+h1,h4,h5 {
     text-align: center;
     font-weight: 700;
 }
@@ -30,6 +30,7 @@ h5 {
 /* Missão Visão e Valores */
 .row {
     text-align: center;
+    
 
 }
 
@@ -37,7 +38,7 @@ h5 {
     text-decoration: none;
     color: #fff;
     font-size: 50px;
-}
+    }
 
 .icones {
     height: 20px;
@@ -81,7 +82,8 @@ img {
 }
 
 .biografia {
-     text-align: justify;
+    padding: 15px;
+    text-align: justify;
     line-height: 2rem;
     text-decoration: none;
         
