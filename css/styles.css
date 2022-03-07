@@ -21,24 +21,28 @@ footer {
     text-decoration: none;
 }
 
-h1,h4,h5 {
+h1,
+h4,
+h5 {
     text-align: center;
-    font-weight: 700;
+
 }
 
 
 /* Missão Visão e Valores */
-.row {
-    text-align: center;
-    
 
+
+.col {
+    text-align: center;
 }
+
 
 .bi {
     text-decoration: none;
     color: #fff;
     font-size: 50px;
-    }
+    text-align: center;
+}
 
 .icones {
     height: 20px;
@@ -50,7 +54,6 @@ h1,h4,h5 {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
-    height: 0;
 }
 
 .map-container iframe {
@@ -66,27 +69,27 @@ img {
     max-width: 100%;
 }
 
+/* Container Treinadores */
 .gallery {
-  
+    /* 
+    O padding está definindo uma margem para o container com relação a tela*/
     padding: 60px 40px;
-    min-height: 100vh;    
-    
+    min-height: 100vh;
+
 }
 
 .gallery img {
     background-color: #fff;
+    /*O padding está definindo uma margem para tag img dentro do container, permitindo que a borda com bg-color fique exposta (apareça) caso contrário a imagem ficaria do tamanho do container */
     padding: 15px;
     width: 100%;
-    cursor: pointer;
-    transition: transform .5s;
+
 }
 
 .biografia {
     padding: 15px;
     text-align: justify;
     line-height: 2rem;
-    text-decoration: none;
-        
 }
 
 .instagram {
